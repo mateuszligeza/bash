@@ -1,11 +1,11 @@
-Operacje arytmetyczne moga byc wywolane poprzez `` `expr ...` ``, `$((...))` lub polecenie `let ...`
+Operacje arytmetyczne moga byc wywolane poprzez `` `expr ...` ``, `$((...))`,  lub polecenie `let ...`
 
 Programy moga byc uruchamiane z wiersza polecen jako:
 
-    ./zad01.sh 3 5 +
-    ./zad01.sh 3 5 -
-    ./zad01.sh 3 5 \*
-    ./zad01.sh 3 5 /
+    ./zad01.sh 6 3 +
+    ./zad01.sh 6 3 -
+    ./zad01.sh 6 3 \*
+    ./zad01.sh 6 3 /
 
 
 > operator `*` musi byc poprzedzony `\` - to tzw [escape sequence](https://www.computerhope.com/jargon/e/escasequ.htm) by zmienic znaczenie znaku specjalnego `*`
