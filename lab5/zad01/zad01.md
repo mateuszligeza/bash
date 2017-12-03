@@ -15,3 +15,5 @@ Zrodla:
 [Arithmetic Expansion](http://tldp.org/LDP/abs/html/arithexp.html)
 
 [Zmienne programowe](http://dief.republika.pl/varp.html)
+
+[Roznice miedzy nawiasami](https://unix.stackexchange.com/questions/306111/confused-about-operators-vs-vs-vs)
