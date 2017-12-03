@@ -22,7 +22,7 @@ if [ ! -x $plik ]; then
 fi
 
 folderWyjsciowy="KAT"
-if [ ! -e $folderWyjsciowy ]; then
+if [ ! -d $folderWyjsciowy ]; then
     echo "Tworzenie folderu $folderWyjsciowy"
     mkdir $folderWyjsciowy
 fi
