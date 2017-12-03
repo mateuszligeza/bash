@@ -1,12 +1,12 @@
 #!/bin/bash
 
-if (($# < 1))
+if (($# != 2))
 then
-    echo "prosze podac przynajmniej jeden argument"
+    echo "prosze podac dwa argumenty"
     exit
 fi
 
-if [ "$1" == "k" ]
+if [ "$1" == "p" ]
 then
     echo "poprawny pierwszy argument: $1"
 else
