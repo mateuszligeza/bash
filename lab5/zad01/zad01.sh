@@ -1,19 +1,21 @@
 #!/bin/bash
 
-firstNumber=$1
-secondNumber=$2
+pierwszaLiczba=$1
+drugaLiczba=$2
 operator=$3
+wynik=""
 
 if [ "$operator" == "+" ]
 then
-    echo $(( firstNumber + secondNumber ))
+    wynik=$((pierwszaLiczba + drugaLiczba))
 elif [ "$operator" == "-" ]
 then
-    echo $(( firstNumber - secondNumber ))
+    wynik=$((pierwszaLiczba - drugaLiczba ))
 elif [ "$operator" == "*" ]
 then
-    echo $(( firstNumber * secondNumber ))
+    wynik=$((pierwszaLiczba * drugaLiczba ))
 elif [ "$operator" == "/" ]
 then
-    echo $(( firstNumber / secondNumber ))
+    wynik=$((pierwszaLiczba / drugaLiczba ))
 fi
+echo $wynik
